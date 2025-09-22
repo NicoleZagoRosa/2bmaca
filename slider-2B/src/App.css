@@ -1,0 +1,81 @@
+body{
+  background: #ccc;
+}
+main{
+  width: 100%;
+  height: auto;
+  background: #999;
+}
+header{
+  width: 100%;
+  height: 40vh;
+  background: #927f7f;
+}
+.produtos{
+  width: 100%;
+  height: auto;
+  float: left;
+  background: rgb(83, 59, 64);
+}
+.card{
+  width: 90%;
+  height: auto;
+  background: #fff;
+  float: left;
+  margin-left: 5%;
+  position: relative;
+  overflow: hidden;
+
+}
+.card h2{
+  width: 90%;
+  float: left;
+  margin-left: 5%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  background: rgb(78, 117, 180);
+  margin-top: 1vh;
+}
+.desc{
+  width: 90%;
+  height: auto;
+  float: left;
+  background: rgb(158, 158, 108);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1em;
+  margin-left: 5%;
+  margin-top: 1vh;
+}
+.preco{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  background: rgb(156, 126, 156);
+  margin-top: 2%;
+}
+.avaliacao{
+  width: 40%;
+  margin-top: 2vh;
+  text-align: center;
+  float: right;
+  margin-right: 5%;
+  background: rgb(45, 71, 45);
+}
+.img-prod{
+  width: 100%;
+  height: auto;
+  float: left;
+
+}
+.destaque{
+  width: 100%;
+  height: 50vh;
+  background: rgb(104, 61, 61);
+}
+footer{
+  width: 100%;
+  height: 20vh;
+  background: rgb(40, 56, 40);
+}
